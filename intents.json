@@ -1,0 +1,46 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+     "responses": ["Hello", "Hi", "Hi there", "Hello!", "Good to see you again!", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "cya", "See you later", "I am leaving", "Have a good day"],
+     "responses": ["See you later", "Have a nice day", "Bye!", "Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I am Siri, your bot assistant", "You can call me Siri.", "I'm Siri!", "I'm Siri, your Virtual Assitant bot."]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "what is your age", "how old are you", "age?"],
+    "responses": ["I am 18 years old!", "18 years young!", "I'm a happy 18 bot!"],
+    "context_set": ""
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "shop",
+    "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+    "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+    "context_set": ""
+    },
+    {"tag": "hours",
+    "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+    "responses": ["We are open 7am-4pm Monday-Friday!"],
+    "context_set": ""
+    }
+  ]
+}
